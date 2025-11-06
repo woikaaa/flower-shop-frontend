@@ -1,0 +1,221 @@
+.navbar-collapse-top {
+    display: flex;
+    margin: 0;
+    padding-top: 0;
+    padding-inline: 0;
+    margin-inline: 0;
+    justify-content: space-between;
+}
+
+.nav-item a {
+    color: rgb(235, 117, 201);
+}
+
+.nav-item a:hover {
+    color: rgb(241, 183, 229);
+}
+
+.top-nav-bar {
+    background-color: rgb(56, 54, 54);
+    height: 40px;
+}
+
+.nav-border-right {
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+
+.nav-item .nav-bg {
+    background-color: rgb(180, 118, 163);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+    color: rgb(94, 63, 84) ;
+    height: 35px;
+    margin-top: 2px;
+    border-color: black;
+}
+
+.fb-icon {
+    width: 30px;
+    margin-inline: 5px;
+
+}
+
+.inst-icon {
+    width: 25px;
+    margin-inline: 5px;
+
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item-hide {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .nav-item-hide {
+        display: flex;
+    }
+    .carousel-indicators,
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon,
+    .navbar-collapse-top {
+        display: none;
+    }
+   
+    
+    .carousel-inner ,  .carousel-cont {
+        height: 40vh !important;
+        
+    
+    }
+}
+
+.carousel-cont {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+}
+
+.nav-border-down:hover {
+    border-bottom: 2px solid rgb(177, 90, 153); 
+    
+}
+.nav-border-down{
+    color: rgb(92, 46, 81) !important;
+    font-weight: 600;
+}
+.navbar-color{
+    background-color: rgba(78, 46, 69, 0.633);
+    
+}
+.navbar-brand img{
+    width: 190px;
+    margin-right: 2em;
+}
+
+.advantage-item {
+    display: flex; /* Делаем строку flex-контейнером */
+    align-items: center; /* Выравниваем по центру */
+    gap: 15px; /* Расстояние между картинкой и текстом */
+}
+
+.advnimg {
+    width: 60px; /* Задаем размер изображения (по желанию) */
+    height: auto;
+    
+}
+.advn-cont{
+    background-color: rgb(196, 195, 192);
+}
+.news-text{
+
+    text-decoration: none;
+    color: rgb(143, 106, 106);
+
+}
+.btn-outline-dark:hover{
+    background-color: rgb(235, 117, 201);
+    
+}
+.sale-data{
+    font-size:small;
+}
+
+.sale-item p{
+     margin: 0;
+   
+
+}
+.sale-item a{
+    text-decoration: none;
+    color:rgb(103, 101, 101);
+}
+.sale-item h6{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+}
+.sale-item h6:hover{
+    color: rgb(235, 117, 201);
+    margin-bottom: 0;
+
+
+}
+.img-news{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-news img{
+    z-index: 1;
+    height:400px ;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+   
+}
+.text-img-video{
+    z-index: 2;
+    color: rgb(255, 255, 255);
+}
+.main-con-footer{
+    background-color: rgb(246, 246, 246);
+    padding: 3em;
+}
+.btn-primary, .btn-outline-success{
+    background-color: rgb(235, 117, 201);
+    border-color: black;
+    color: aliceblue;
+}
+.btn-primary:hover{
+    background-color: rgb(92, 44, 78);
+
+
+}
+.email-footer{
+    text-decoration: none;
+    color: rgb(235, 117, 201);
+margin: auto auto;
+}
+.email-footer:hover{
+    color: rgb(119, 88, 123);
+
+}
+
+.footer-col2 a{
+    text-decoration: none;
+    color: rgb(95, 92, 92);
+    margin-bottom: .5em;
+}
+.footer-col2 a:hover{
+    color: rgb(235, 117, 201);
+
+}
+.btn-outline-success:hover {
+background-color: rgb(92, 44, 78);
+border-color: black;
+}

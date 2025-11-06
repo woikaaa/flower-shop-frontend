@@ -1,0 +1,50 @@
+.btn-ab-company{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(196, 88, 189);
+    color:rgb(189, 140, 186) ;
+    font-size: larger ;
+    font-weight: bold;
+}
+.btn-ab-company:hover{
+    background-color:rgb(196, 88, 189) ;
+    color: aliceblue;
+}
+.img-ab-company{
+    filter: blur(2px);
+   filter: brightness(0.5);
+   width: 100%;
+   height: 70vh;
+   object-fit: cover;
+}
+.history {
+    box-sizing: border-box;
+}
+
+.history-container{
+    background-color: rgb(242, 242, 241);
+    border-radius: 10px;
+}
+.history-container h4{
+    color:rgb(189, 140, 186) ;
+  
+}
+
+.img-indast, .second-img-indast{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    filter: brightness(0.5);
+    
+}
+.btn-img-indast{
+    background-color:rgb(196, 88, 189) ;
+
+}
+.img-rose{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+

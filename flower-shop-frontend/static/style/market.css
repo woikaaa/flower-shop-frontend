@@ -1,0 +1,74 @@
+.img-market img{
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+}
+.scrollspy-example {
+    position: relative;
+    height: 30vh; /* Установите высоту, если необходимо */
+    overflow-y: scroll;
+}
+
+.list-group-item {
+    background-color: rgb(103, 52, 93);
+}
+.list-group-item.active{
+    background-color: rgb(151, 73, 136);
+border-color: bisque;
+}
+.scrollspy-example p a{
+text-decoration: none;
+font-weight: bold;
+color: rgb(187, 70, 150);
+}
+
+ .alarm1{
+    background-color: rgb(236, 232, 232);
+    margin: 2rem;
+    padding: 1rem;
+    color: rgb(146, 146, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-pricing{
+    height: 44px;
+    width: 44px;
+}
+.pricing-info .alarm2{
+    width: 48px ; 
+    height: 48px ;
+    
+}
+.price-menu{
+    height: 50px;
+    width: 50px;
+}
+.price-menu-col .col-1{
+    margin-inline: 2rem;
+
+}
+.height-rose{
+    background-color: rgb(221, 116, 216);
+ 
+}
+.price-row{
+    background-color: rgb(199, 199, 199);
+}
+.price-row-bc{
+    background-color: rgb(168, 168, 168);
+
+}
+
+.price-row:hover{
+    background-color: rgb(219, 137, 206);
+}
+.price-row-bc:hover{
+    background-color: rgb(141, 86, 136);
+
+}
+
+.border-pricing .col-1{
+    border-right: 3px solid #978c8c;
+   /* border-left: 3px solid #000 ; */
+}

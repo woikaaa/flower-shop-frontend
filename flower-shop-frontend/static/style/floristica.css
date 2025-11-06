@@ -1,0 +1,58 @@
+.col-lg-5 {
+    position: relative;
+    display: flex;
+    align-items: center; /* Выравнивает текст */
+    justify-content: center; /* Центрирует текст */
+    overflow: hidden; /* Обрезает выходящие за границы части */
+    height: 400px; /* Задайте нужную высоту блока */
+}
+.cont-florist-main{
+    border-bottom: 3px solid rgb(184, 175, 175);
+}
+
+.image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.col-lg-5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполняет контейнер без искажений */
+    position: absolute;
+}
+
+.florist {
+    position: relative; /* Поднимает текст над изображением */
+    z-index: 2;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Затемнение для читаемости */
+    padding: 20px;
+    border-radius: 10px;
+}
+.florist h4:hover{
+    color: rgb(228, 125, 228);
+}
+.florist p:hover{
+    color: rgb(228, 125, 228);
+}
+.color-pink{
+    color: rgb(216, 88, 174);
+}
+.flori-call .btn-secondary{
+    background-color: rgb(216, 88, 174);
+    border: 0;
+    
+}
+.flori-call li{
+    color: rgb(145, 143, 143);
+}
+.florist-info h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

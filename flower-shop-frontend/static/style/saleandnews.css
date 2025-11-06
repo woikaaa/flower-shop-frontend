@@ -1,0 +1,56 @@
+.col-lg-4 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.col-lg-4 a:hover{
+    text-decoration: none;
+    color: rgb(231, 56, 204);
+    font-weight: bold;
+}
+.col-lg-4 img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+   
+}
+.btn-sale{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 1;
+    border-color:rgb(231, 56, 204) ;
+    border-style: solid;
+    border-width:3px ;
+}
+.btn-sale:hover{
+    background-color:rgb(202, 94, 173);
+
+}
+.import-p-text p:hover{
+    color: rgb(232, 62, 206);
+
+}
+.import{
+    color: rgb(158, 47, 141);
+
+}
+.col-lg-6{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-6 img{
+    z-index: 1;
+    height:367px ;
+    width: 90%;
+    position: absolute;
+    object-fit: cover;
+    filter: brightness(0.5) ;
+    top: 0;
+}
+.text-img-importflo{
+    z-index: 2;
+    color: rgb(255, 255, 255);
+
+}
